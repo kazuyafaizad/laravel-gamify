@@ -1,5 +1,5 @@
 {
-    "name": "ansezz/laravel-gamify",
+    "name": "kazuyafaizad/laravel-gamify",
     "description": "Add Gamification in laravel app with point and badges support",
     "homepage": "https://github.com/ansezz/laravel-gamify",
     "type": "library",
@@ -32,7 +32,7 @@
   },
     "autoload": {
         "psr-4": {
-            "Ansezz\\Gamify\\": "src/"
+            "Kazuyafaizad\\Gamify\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -40,16 +40,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Ansezz\\Gamify\\Tests\\": "tests/"
+            "Kazuyafaizad\\Gamify\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ansezz\\Gamify\\GamifyServiceProvider"
+                "Kazuyafaizad\\Gamify\\GamifyServiceProvider"
             ],
             "aliases": {
-                "Gamify": "Ansezz\\Gamify\\Facades\\GamifyFacade"
+                "Gamify": "Kazuyafaizad\\Gamify\\Facades\\GamifyFacade"
             }
         }
     },
